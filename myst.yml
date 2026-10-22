@@ -1,15 +1,46 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: e01b753f-9189-458a-9ece-3ac6dced3652
+  id: e79aff11-55d6-4d24-aaf4-e22dd0e6bf31
   # title:
   # description:
   # keywords: []
   # authors: []
-  github: https://github.com/blinkletter/netbook
+  # github:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+  - file: index.md
+  - title: Website
+    children:
+      - file: website/siteinstructions.md
+      - file: website/webbook.md
+        sections:
+        - file: website/waterbox/waterbox.md
+  - title: Chapters
+    children:
+      - file: chapters/01-intro/intro.md        
+        sections:
+        - file: chapters/01-intro/00-HistoryEarth/earthhistory.md
+        - file: chapters/01-intro/01-trypsin-geis/trypsin-geis.md
+        - file: chapters/01-intro/02-trypsin-chimera/trypsin-chimera.ipynb     
+        - file: chapters/01-intro/03-Trypsin-ramachandran/Ramachandran.ipynb     
+      - file: chapters/03-water/water.md        
+        sections:
+        - file: chapters/03-water/01-ElementsOnEarth/ElementsEarth.ipynb
+        - file: chapters/03-water/01-ElementsOnEarth/ElementsBiosphere.ipynb
+        - file: chapters/03-water/02-Electronegativity/Electronegativity.ipynb
+        - file: chapters/03-water/04-PESScan/PES_Scan_Butane.ipynb
+        - file: chapters/03-water/04-PESScan/Processing_Butane.ipynb
+        - file: chapters/03-water/04-PESScan/PES_Scan_Butadiene.ipynb
+        - file: chapters/03-water/04-PESScan/Processing_Butadiene.ipynb
+        - file: chapters/03-water/05-HULIS/HULIS-ethylene-butadiene.md
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    style: ./custom.css
+    folders: true
+    logo_text: A Sample Web Book
+    logo: images/chapter-1-wave.png
+#    baseurl: /samplewebbook/
+#   favicon: favicon.ico
+
