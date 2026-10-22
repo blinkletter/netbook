@@ -2,11 +2,12 @@
 version: 1
 project:
   id: e79aff11-55d6-4d24-aaf4-e22dd0e6bf31
-  # title:
-  # description:
+  title: Biochemistry How & Why - Images
+  description: A webbook of images for the Biochemistry How & Why book
+  license: CC-BY-NC-4.0
   # keywords: []
-  # authors: []
-  # github:
+  authors: Barry Linkletter
+  github: https://github.com/blinkletter/netbook/
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
   - file: index.md
@@ -39,7 +40,7 @@ site:
   options:
     style: ./custom.css
     folders: true
-    logo_text: Biochemistry: How \& Why – Images
+    logo_text: Biochemistry How & Why - Images
     logo: images/waterbox.png
 #    baseurl: /samplewebbook/
 #   favicon: favicon.ico
