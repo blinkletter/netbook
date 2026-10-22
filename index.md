@@ -19,7 +19,7 @@ The textbook chapters do not have numbers in this web book. The order in the pri
 
 ### [Other](other/other.md)
 
-Images and figures that are not used. These are likely unfinished, rejected or experiments in learning the tools. I keep them here so that I can find them again.
+Images and figures that are not used. These are likely unfinished or rejected projects, or experiments while learning the tools. I keep them here so that I can find them again.
 
 
 
