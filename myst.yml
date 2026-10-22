@@ -39,7 +39,7 @@ site:
   options:
     style: ./custom.css
     folders: true
-    logo_text: A Sample Web Book
+    logo_text: Biochemistry: How \& Why – Images
     logo: images/waterbox.png
 #    baseurl: /samplewebbook/
 #   favicon: favicon.ico
