@@ -40,7 +40,7 @@ site:
     style: ./custom.css
     folders: true
     logo_text: A Sample Web Book
-#    logo: images/chapter-1-wave.png
+    logo: images/waterbox.png
 #    baseurl: /samplewebbook/
 #   favicon: favicon.ico
 
