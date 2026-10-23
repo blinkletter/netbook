@@ -8,9 +8,7 @@ This notebook provides the instructions and code to produce the corresponding fi
 The plot of the changes in the surfcae of teh Earth over time was mad by combining two images. The line plot of oxygen over time was from [https://commons.wikimedia.org/wiki/File:Oxygenation-atm.svg](https://commons.wikimedia.org/wiki/File:Oxygenation-atm.svg)
 
 The image of the composition of the Earth's crust was taken from Figure 1 in
-https://doi.org/10.1126/sciadv.ade6923.
-
-I performed the classic "screen shot" and edited the image.
+https://doi.org/10.1126/sciadv.ade6923. I performed the classic "screen shot" and edited the image.
 
 I edited and combined the images using *Affinity Publisher* (now available as *[Affinity Studio](https://www.affinity.studio)*). The working file is available as [images/00_Intro_EarthRocks.afpub](images/00_Intro_EarthRocks.afpub) in the GitHub repository with this noteboook
 
