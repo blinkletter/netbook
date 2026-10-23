@@ -5,8 +5,13 @@ project:
   title: Biochemistry How & Why - Images
   description: A webbook of images for the Biochemistry How & Why book
   license: CC-BY-NC-4.0
-  # keywords: []
-  authors: Barry Linkletter
+#  keywords: []
+  short_title: How & Why - Images
+#  date: 2026-05-11
+  authors:
+    - name: Barry Linkletter
+      affiliations:
+        - University of Prince Edward Island
   github: https://github.com/blinkletter/netbook/
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
@@ -42,7 +47,11 @@ site:
     style: ./custom.css
     folders: true
     logo_text: Biochemistry How & Why - Images
-    logo: images/waterbox.png
+    logo: images/water3.png
 #    baseurl: /samplewebbook/
-#   favicon: favicon.ico
-
+    favicon: images/favicon_io/favicon.ico
+    # used https://favicon.io/favicon-generator/
+#    hide_authors: true
+#    hide_footer_links: true # Hide the previous/next links in the footer
+#    hide_outline: true # Hide the document outline on all pages (right side)
+#    hide_toc: true # left side table of contents
