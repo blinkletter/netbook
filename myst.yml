@@ -41,6 +41,8 @@ project:
         - file: chapters/03-water/04-PESScan/Processing_Butadiene.ipynb
         - file: chapters/03-water/05-HULIS/HULIS-ethylene-butadiene.md
       - file: other/other.md        
+  bibliography:
+       - references.bib
 site:
   template: book-theme
   options:

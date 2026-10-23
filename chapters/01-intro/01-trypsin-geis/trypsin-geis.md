@@ -15,7 +15,7 @@ In the book I presented an edited version of Irving Geis' 1974 drawing of Trypsi
 The original image obtained from the [RCSB Irving Geis archives](https://pdb101.rcsb.org/sci-art/geis-archive/about). Accessed on April 15, 2026 and used without permission.
 ```
 
-I edited the image using *Affinity Photo* (now available as *[Affinity Studio](https://www.affinity.studio)*). The working file is available as [images/geis-0022-trypsin_color.afphoto](images/geis-0022-trypsin_color.afphoto) in the GitHub repository with this noteboook
+I edited the image using *Affinity Photo* (now available as *[Affinity Studio](https://www.affinity.studio)*). The working file is available as `geis-0022-trypsin_color.afphoto` in the GitHub repository for this web book
 
 The image was exported in png format and the version presented in the textbook is reproduced below.
 
